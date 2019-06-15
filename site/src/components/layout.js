@@ -5,7 +5,8 @@
  * See: https://www.gatsbyjs.org/docs/static-query/
  */
 
-import React from "react"
+import React from "react";
+import { graphql, useStaticQuery } from "gatsby";
 
 export default function Layout({ children }) {
   return (
