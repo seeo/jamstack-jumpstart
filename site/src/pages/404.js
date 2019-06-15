@@ -2,10 +2,10 @@ import React from "react"
 import Layout from "../components/layout"
 
 
-export default function HomePage() {
+export default function NotFound() {
   return (
     <Layout>
-      <p>I'm the home page!</p>
+      <p> 404 page not found</p>
     </Layout>
   )
 }
